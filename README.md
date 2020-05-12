@@ -32,9 +32,22 @@ User can run Converter application by run converter.ConverterApp.java by Intelli
 
 `Run SecretMEMO application by terminal`
 
+For Java 11 you need to specify the module path for JavaFX. Module paht that are important are javafx.controls and javafx.fxml
+
 ```bash
 java --module-path /Path to/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls,javafx.fxml  -jar SecretMEMO.jar
 ```
+
+## Overview
+
+**For more detail, Please watch a video**
+
+![](README_Image/GUI.png)
+
+## UML class diagram
+
+![](README_Image/uml.png)
+
 
 
 
