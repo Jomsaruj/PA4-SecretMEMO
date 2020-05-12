@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="scene" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #dcd2c8 #dcd2c8 #dcd2c8 #dcd2c8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="secretMEMO.Controller">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="600.0" style="-fx-background-color: #8f8681 #8f8681 #8f8681 #8f8681;">
+         <menus>
+            <Menu fx:id="DecryptStrategy" mnemonicParsing="false" text="Strategy">
+               <items>
+                  <MenuItem fx:id="d1" mnemonicParsing="false" onAction="#getStrategy" text="AlphabetShift" />
+                  <MenuItem fx:id="d2" mnemonicParsing="false" onAction="#getStrategy" text="Unicode" />
+                  <MenuItem fx:id="d3" mnemonicParsing="false" onAction="#getStrategy" text="KeyWord" />
+                  <MenuItem fx:id="d4" mnemonicParsing="false" onAction="#getStrategy" text="AES" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#doExit" text="Exit" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#about" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label layoutX="40.0" layoutY="53.0" text="Source" />
+      <TextField fx:id="source" layoutX="90.0" layoutY="48.0" prefHeight="27.0" prefWidth="431.0" style="-fx-background-color: #F5F1EA #F5F1EA #F5F1EA #F5F1EA;" />
+      <Label layoutX="55.0" layoutY="92.0" text="Key" />
+      <TextField fx:id="decKey" layoutX="90.0" layoutY="87.0" prefHeight="27.0" prefWidth="498.0" style="-fx-background-color: #F5F1EA #F5F1EA #F5F1EA #F5F1EA;" />
+      <Button layoutX="474.0" layoutY="357.0" mnemonicParsing="false" onAction="#clearDec" style="-fx-background-color: #c6aa9d;" text="Clear" />
+      <Button layoutX="13.0" layoutY="357.0" mnemonicParsing="false" onAction="#toMainMenu" style="-fx-background-color: #8f8681 #8f8681;" text="Back" />
+      <Button layoutX="529.0" layoutY="48.0" mnemonicParsing="false" onAction="#browseFile" text="Browse" />
+      <Button layoutX="528.0" layoutY="357.0" mnemonicParsing="false" onAction="#decryptFile" style="-fx-background-color: #c6aa9d;" text="Decrypt" />
+      <TextField fx:id="decText" alignment="TOP_LEFT" editable="false" layoutX="14.0" layoutY="125.0" prefHeight="223.0" prefWidth="575.0" style="-fx-background-color: #F5F1EA #F5F1EA #F5F1EA #F5F1EA #F5F1EA #F5F1EA #F5F1EA #F5F1EA;" />
+   </children>
+</AnchorPane>
