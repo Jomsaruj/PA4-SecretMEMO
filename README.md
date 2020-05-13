@@ -7,6 +7,10 @@ Explanation video uploaded on Youtube
 
 https://youtu.be/bZstCo34ywM
 
+## Proposal
+
+https://docs.google.com/presentation/d/1Ey6LZhvRqqRmlLksqTXvdDdoCSPlDPeyLEfQgqR243I/edit#slide=id.g803f644183_0_18
+
 ## Run
 
 There are 2 (recommended) ways to run my SecretMEMO Application
@@ -37,6 +41,9 @@ For Java 11 you need to specify the module path for JavaFX. Module paht that are
 ```bash
 java --module-path /Path to/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls,javafx.fxml  -jar SecretMEMO.jar
 ```
+
+## Design Pattern
+Since there are more than one way to perform Encryption and Decryption. Secret MEMO application using Strategy Design Pattern to provided 4 strategy for user. which are AlphabetShift Strategy, Unicode Strategy, KeyWord Strategy, AES or Advanced Encryption Standard Strategy.
 
 ## Overview
 
