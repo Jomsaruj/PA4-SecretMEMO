@@ -44,11 +44,11 @@ java --module-path /Path to/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls
 
 ## Design Pattern
 
-Since there are more than one way to perform Encryption and Decryption. Secret MEMO application using Strategy Design Pattern to provided 4 strategy for user. which are AlphabetShift Strategy, Unicode Strategy, KeyWord Strategy, AES or Advanced Encryption Standard Strategy.
+Since there are more than one way to perform Encryption and Decryption. Secret MEMO application uses Strategy Design Pattern to provided 4 strategies for user. which are AlphabetShift Strategy, Unicode Strategy, KeyWord Strategy, AES or Advanced Encryption Standard Strategy.
 
 ## Overview
 
-**For more detail, Please watch a video**
+**For more details, Please watch the video**
 
 ![](README_Image/GUI.png)
 
