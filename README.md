@@ -39,7 +39,7 @@ User can run secretMEMO application by run secretMEMO.SecretMemoApp.java by Inte
 For Java 11 you need to specify the module path for JavaFX. Module paht that are important are javafx.controls and javafx.fxml
 
 ```bash
-java --module-path /Path to/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls,javafx.fxml  -jar SecretMEMO.jar
+java --module-path /Path to/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls,javafx.fxml  -jar secretMEMO.jar
 ```
 
 ## Design Pattern
