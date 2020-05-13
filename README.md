@@ -10,12 +10,12 @@ https://youtu.be/bZstCo34ywM
 ## Run
 
 There are 2 (recommended) ways to run my SecretMEMO Application
-* Run converter application by IDE (recommended Intellij IDEA)
-* Run converter application by command (Terminal)
+* Run secretMEMO application by IDE (recommended Intellij IDEA)
+* Run secretMEMO application by command (Terminal)
 
 `Run SecretMEMO application by Intellij`
 
-User can run Converter application by run converter.ConverterApp.java by Intellij IDEA.(For java 11)
+User can run secretMEMO application by run secretMEMO.SecretMemoApp.java by Intellij IDEA.(For java 11)
 
 * Add javaFX11 to module
     - File -> Project Structure -> Global Libraries -> javaFX11 -> add to modules. -> apply
